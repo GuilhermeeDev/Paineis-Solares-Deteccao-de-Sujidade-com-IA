@@ -1,0 +1,1 @@
+# Paineis-Solares-Deteccao-de-Sujidade-com-IA
