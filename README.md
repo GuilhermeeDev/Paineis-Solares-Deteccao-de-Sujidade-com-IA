@@ -25,6 +25,6 @@ Este projeto é composto por duas APIs desenvolvidas com **FastAPI** que trabalh
 
 A primeira API *(cliente_rbpi.py)* permite que o usuário envie uma ou mais imagens. Cada imagem é convertida para base64 e enviada para um repositório no GitHub, utilizando a API pública do GitHub. Após o envio, a URL da imagem é passada como parâmetro para a segunda API.
 
-A segunda API *(main_process.py)* realiza o processamento da imagem usando modelos de deep learning pré-treinados (como AlexNet, ResNet50 e VGG16). O sistema classifica a imagem como "clean" ou "dirty", renomeia o arquivo com a classificação, e salva os resultados (incluindo a nova URL da imagem, a data e a hora do processamento) em um banco de dados **MySQL**. Todo o processo é feito de forma assíncrona e individual para cada imagem, mesmo quando múltiplas imagens são enviadas.
+A segunda API *(main_process.py)* realiza o processamento da imagem usando modelos de deep learning pré-treinados (**AlexNet**, **ResNet50** e **VGG16**). O sistema classifica a imagem como "clean" ou "dirty", renomeia o arquivo com a classificação, e salva os resultados (incluindo a nova URL da imagem, a data e a hora do processamento) em um banco de dados **MySQL**. Todo o processo é feito de forma assíncrona e individual para cada imagem, mesmo quando múltiplas imagens são enviadas.
 
 Este sistema todo foi construido para ser utilizado no Seguinte contexto:
