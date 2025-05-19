@@ -12,11 +12,12 @@ Para mais detalhes sobre a estrutura, funcionamento e componentes do projeto, [a
 ## Instalação
 1 - Clonando o Repositorio:
 ```bash
-git clone https://github.com/seuusuario/seurepositorio.git
-cd Software
+git clone https://github.com/GuilhermeeDev/Paineis-Solares-Deteccao-de-Sujidade-com-IA.git
+cd Paineis-Solares-Deteccao-de-Sujidade-com-IA
 ```
 2 - Instalando as dependencias do software:
 ```bash
+cd Software
 pip --version
 pip install -r requirements.txt
 ```
