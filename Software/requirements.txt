@@ -1,7 +1,0 @@
-fastapi
-uvicorn
-torch
-torchvision
-pillow
-python-multipart
-mysql-connector-python
